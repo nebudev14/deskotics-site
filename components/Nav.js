@@ -16,10 +16,10 @@ const Nav = () => {
                         <img src="/deskotics_pfp.jpg" className={navStyles.pfp} />
                     </a>
                 </li>
-                <li className={navStyles.link}>
-                    <Link href="#links">
+                <li>
+                    <a href="#links" className={navStyles.link}>
                         Links
-                    </Link>
+                    </a>
                 </li>
             </ul>
         </div>

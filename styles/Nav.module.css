@@ -20,8 +20,8 @@
 }
 
 .link {
-    padding: 1rem;
-    border-radius: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
     transition: 200ms ease;
 }
 
