@@ -7,17 +7,17 @@ const Nav = () => {
         <div>
             <ul className={navStyles.nav}>
                 <li>
-                    <a href="/#about" className={navStyles.link}>
+                    <a href="#about" className={navStyles.link}>
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="/#home">
+                    <a href="#home">
                         <img src="/deskotics_pfp.jpg" className={navStyles.pfp} />
                     </a>
                 </li>
                 <li className={navStyles.link}>
-                    <Link href="/#links">
+                    <Link href="#links">
                         Links
                     </Link>
                 </li>
