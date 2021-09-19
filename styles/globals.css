@@ -14,4 +14,10 @@ a {
 * {
   box-sizing: border-box;
   background-color: #000;
+  color: #fff;
+}
+
+@font-face {
+  font-family: Electrolize;
+  src: url('./Electrolize/Electrolize-Regular.ttf');
 }

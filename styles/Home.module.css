@@ -8,3 +8,13 @@
   height: 100vh;
 }
 
+.pfp {
+  width: 200px;
+  height: 200px;
+  border-radius: 80px;
+}
+
+.text {
+  font-family: Electrolize;
+  
+}
