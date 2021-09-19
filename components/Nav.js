@@ -5,13 +5,13 @@ const Nav = () => {
         <div>
             <ul className={navStyles.nav}>
                 <li>
-                    <a href="/">About</a>
+                    <a href="/#about">About</a>
                 </li>
                 <li>
                     <img src="/deskotics_pfp.jpg" className={navStyles.pfp} />
                 </li>
                 <li>
-                    <a href="/">Links</a>
+                    <a href="/#links">Links</a>
                 </li>
             </ul>
         </div>
