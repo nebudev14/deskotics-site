@@ -11,5 +11,5 @@ export default function Home() {
         <span className="blue">Tuesdays</span> in <span className="primary">Room 031</span>
       </h1>
     </div>
-  )
+  );
 }

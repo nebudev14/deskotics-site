@@ -25,9 +25,11 @@ a {
 .primary {
   color: #FF296C;
   text-shadow: 5px 5px 40px #FF296C;
+  background-color: transparent;
 }
 
 .blue {
   color: #02D8E9;
   text-shadow: 5px 5px 40px #02D8E9;
+  background-color: transparent;
 }
