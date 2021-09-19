@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 import navStyles from '../styles/Nav.module.css';
 
 const Nav = () => {
@@ -5,13 +7,17 @@ const Nav = () => {
         <div>
             <ul className={navStyles.nav}>
                 <li>
-                    <a href="/#about">About</a>
+                    <Link href="/#about">
+                        About
+                    </Link>
                 </li>
                 <li>
                     <img src="/deskotics_pfp.jpg" className={navStyles.pfp} />
                 </li>
                 <li>
-                    <a href="/#links">Links</a>
+                    <Link href="/#links">
+                        Links
+                    </Link>
                 </li>
             </ul>
         </div>
