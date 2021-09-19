@@ -16,5 +16,6 @@
 
 .text {
   font-family: Electrolize;
-  
+  font-size: 250%;
+  margin-top: 1rem;
 }

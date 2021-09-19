@@ -21,3 +21,13 @@ a {
   font-family: Electrolize;
   src: url('./Electrolize/Electrolize-Regular.ttf');
 }
+
+.primary {
+  color: #FF296C;
+  text-shadow: 5px 5px 40px #FF296C;
+}
+
+.blue {
+  color: #02D8E9;
+  text-shadow: 5px 5px 40px #02D8E9;
+}
