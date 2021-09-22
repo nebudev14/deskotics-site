@@ -17,12 +17,14 @@
     height: 50pt;
     border-radius: 50%;
     margin: 0 4rem;
+    background-color: transparent;
 }
 
 .link {
     padding: 0.5rem 1rem;
     border-radius: 10px;
     transition: 200ms ease;
+    background-color: transparent;
 }
 
 .link:hover {
