@@ -1,4 +1,5 @@
 import Social from '../components/Social';
+import About from '../components/About';
 
 import styles from '../styles/Home.module.css'
 
@@ -12,6 +13,7 @@ export default function Home() {
         <span className="blue">Tuesdays</span> in <span className="primary">Room 031</span>
       </h1>
       <Social />
+      <About />
     </div>
   );
 }

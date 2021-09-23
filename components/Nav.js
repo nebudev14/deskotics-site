@@ -17,8 +17,8 @@ const Nav = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="#links" className={navStyles.link}>
-                        Links
+                    <a href="#more" className={navStyles.link}>
+                        More
                     </a>
                 </li>
             </ul>
