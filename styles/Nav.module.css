@@ -30,3 +30,7 @@
 .link:hover {
     background-color: rgba(114, 114, 114, 0.6);
 }
+
+@media screen and (max-width: 1025px) {
+  
+}

@@ -20,3 +20,19 @@
   margin-top: 1rem;
   margin-bottom: 4rem;
 }
+
+@media screen and (max-width: 1025px) {
+  
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    width: 115%;
+  }
+
+  .text {
+    font-size: 120%;
+  }
+}

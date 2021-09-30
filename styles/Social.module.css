@@ -17,3 +17,11 @@
     filter: invert(5%) sepia(53%) saturate(2882%) hue-rotate(138deg) brightness(102%) contrast(98%);
     transform: scale(1.2);
 }
+
+
+@media screen and (max-width: 1025px) {
+  .logo {
+    width: 30pt;
+    height: 30pt;
+  }
+}
