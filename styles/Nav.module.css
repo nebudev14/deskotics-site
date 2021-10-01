@@ -32,5 +32,13 @@
 }
 
 @media screen and (max-width: 1025px) {
-  
+  .nav {
+    font-size: 150%;
+  }
+
+  .pfp {
+    width: 40pt;
+    height: 40pt;
+    margin: 0 2rem;
+  }
 }

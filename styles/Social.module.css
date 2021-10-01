@@ -14,7 +14,6 @@
 }
 
 .logo:hover {
-    filter: invert(5%) sepia(53%) saturate(2882%) hue-rotate(138deg) brightness(102%) contrast(98%);
     transform: scale(1.2);
 }
 
@@ -23,5 +22,6 @@
   .logo {
     width: 30pt;
     height: 30pt;
+    margin: 0.7rem;
   }
 }
