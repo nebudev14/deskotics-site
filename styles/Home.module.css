@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  padding: 0 0.5rem;
+  padding: 10rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +24,7 @@
 
   .container {
     margin: 0;
-    padding: 0;
+    padding: 9rem 0rem;
   }
   
   .title {
