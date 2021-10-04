@@ -4,10 +4,10 @@ const About = () => {
     return (
         <div className={aboutStyles.container}>
             <div className={aboutStyles.left}>
-                <h1>hello</h1>
+                <h1>About</h1>
             </div>
             <div className={aboutStyles.right}>
-            
+                <img src="/decari/soon.png" className={aboutStyles.decOne} />
             </div>
         </div>
     );

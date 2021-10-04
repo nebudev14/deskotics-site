@@ -1,3 +1,23 @@
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-areas: 
+        "left right";
+    grid-auto-columns: 1fr;
+}
+
+.left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.decOne {
+    width: 50%;
 }
