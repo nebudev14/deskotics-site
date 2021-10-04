@@ -1,6 +1,6 @@
 .container {
   height: 100vh;
-  padding: 10rem 0rem;
+  padding: 17rem 0rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -13,11 +13,16 @@
   border-radius: 80px;
 }
 
+
 .text {
   font-family: Electrolize;
   font-size: 250%;
   margin-top: 1rem;
   margin-bottom: 4rem;
+}
+
+.decariOne {
+  width: 10%;
 }
 
 @media screen and (max-width: 1025px) {

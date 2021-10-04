@@ -35,3 +35,15 @@ a {
   background-color: transparent;
 }
 
+::-webkit-scrollbar {
+  width: 4px;
+  background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FF296C;
+}
+
+::selection {
+  background: #02D8E9;
+}
