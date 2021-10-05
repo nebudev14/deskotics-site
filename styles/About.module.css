@@ -6,10 +6,16 @@
     grid-auto-columns: 1fr;
 }
 
+.title {
+    font-size: 450%;
+    color: #FF296C;
+}
+
 .left {
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
 .right {
