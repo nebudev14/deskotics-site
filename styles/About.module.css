@@ -1,15 +1,19 @@
+.section {
+    text-align: center;
+}
+
 .container {
-    height: 100vh;
+    height: 100%;
     display: grid;
     grid-template-areas: 
         "left right";
     grid-auto-columns: 1fr;
     margin-top: 2rem;
+    margin-bottom: 10rem;
 }
 
 .title {
     font-size: 450%;
-    color: #FF296C;
     margin: 0;
     margin-bottom: 1rem;
 }
@@ -17,18 +21,25 @@
 .left {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
 }
 
 .right {
+    text-align: center;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .decOne {
     width: 50%;
+}
+
+.decTwo {
+    width: 50%;
+    margin-top: 20rem;
 }
 
 .titleDesc {
